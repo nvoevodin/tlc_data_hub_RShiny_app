@@ -199,6 +199,7 @@ section.sidebar .shiny-input-container {
     letter-spacing: 4px;
 }
 
+/*
 .btn-box-tool {
     padding: 5px;
     font-size: 12px;
@@ -220,7 +221,7 @@ padding: 5px;
     box-shadow: 4px 3px 11px 1px rgba(163, 209, 216, 0.41);
   transform: scale(1.3);
 }
-
+*/
 
 p {
     margin: 0 0 10px;

@@ -22,7 +22,7 @@
       
  /*//////////////////////////////////////////////////////////////
 //TABS*/     
-    
+   /* 
       .sidebar-menu>li {
     position: relative;
     margin: 2px 12px 2px 10px;
@@ -70,12 +70,13 @@
     color: #dead3c;
 }
 
-
+*/
 /*//////////////////////////////////////////////////////////////
 //LOGO*/
 
-.skin-blue .main-header .logo {
-    background-color: #d4a21ebd;
+
+.skin-blue-light .main-header .logo {
+    background-color: #f3bf01;
     color: #fff;
     border-bottom: 1px solid #31212117;
     font-weight: bolder;
@@ -98,12 +99,21 @@
 
 /*//////////////////////////////////////////////////////////////
 //LEFT SIDEBAR*/
-
+/*
   .main-sidebar {
    background: #ffffff;
    box-shadow: 6px 1px 5px #828e9026;
        background-color: #ffffff;
   }
+  
+  */
+  
+  .skin-blue-light .sidebar-menu>li>a {
+    border-left: 3px solid transparent;
+    /* font-weight: 900; */
+    text-align: center;
+    font-size: 20px;
+}
   
   label {
     display: inline-block;
@@ -141,12 +151,21 @@
 
 /*//////////////////////////////////////////////////////////////
 //BACKGROUND*/
-                             
+                           
  .content {
-       background: linear-gradient(#ffffff, #000000bd,#ffffff);
-                             }
+      
+       
+       /*linear-gradient(#ffffff, #000000bd,#ffffff);*/
 
- 
+                             }
+                            
+                             
+/*                             
+.tab-content>.tab-pane {
+    height: 1500px;
+}
+
+ */
  
                              
 
@@ -199,6 +218,7 @@ section.sidebar .shiny-input-container {
     letter-spacing: 4px;
 }
 
+/*
 .btn-box-tool {
     padding: 5px;
     font-size: 12px;
@@ -207,6 +227,7 @@ section.sidebar .shiny-input-container {
     border-radius: 50%;
     transition: transform 0.6s;
     box-shadow: 4px 3px 11px 1px rgba(163, 209, 216, 0.41);
+    border-color: #e08e0b00;
 
 }
 
@@ -219,7 +240,9 @@ padding: 5px;
     
     box-shadow: 4px 3px 11px 1px rgba(163, 209, 216, 0.41);
   transform: scale(1.3);
+  border-color: #e08e0b00;
 }
+*/
 
 
 p {
@@ -268,14 +291,26 @@ section.sidebar .shiny-bound-input.action-button, section.sidebar .shiny-bound-i
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////
 //MAP STAT BOX*/
-.box.box-solid.box-danger {
+#main_stat_box {
     border: 1px solid #dd4b3900;
     background: #bddcdcad;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
 }
 
 
-.box.box-solid.box-danger>.box-header {
+#fl_graphs>.box-header{
+  background:#ecf0f5;
+  padding:0px;
+}
+
+
+#fin_graphs>.box-header{
+  background:#ecf0f5;
+
+}
+
+
+#main_stat_box>.box-header {
     color: #fff;
     background: #bddcdc82;
     background-color: #4d95b5bd;
@@ -310,6 +345,53 @@ section.sidebar .shiny-bound-input.action-button, section.sidebar .shiny-bound-i
     background-clip: padding-box;
     background: #e9f5f5c9;
 }
+
+
+#map_box {
+      background: #ffffffcf;
+          border-radius: 25px;
+          padding: 15px;
+}
+
+
+#map_box>.box-header{
+
+  padding:5px;
+}
+
+#mycardsidebar {
+background: #bed8e4;
+}
+
+#fin_box {
+      background: #f3bf01;
+          border-radius: 25px;
+          padding: 10px;
+}
+
+
+#fin_box>.box-header{
+border-bottom: 1px solid #f4f4f400;
+
+}
+
+#fin_box_1 {
+      background: #ffffffb0;
+          border-radius: 25px;
+          padding: 10px;
+}
+
+
+#fin_box_1>.box-header{
+border-bottom: 1px solid #f4f4f400;
+  padding:0px;
+}
+
+
+.direct-chat-contacts {
+  padding:1%;
+}
+
 /*//////////////////////////////////////////////////////////////////////////////////////////////////
 //SECONDARY BOXES*/
 

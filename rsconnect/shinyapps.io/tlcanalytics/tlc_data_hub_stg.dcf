@@ -1,0 +1,13 @@
+name: tlc_data_hub_stg
+title: tlc_data_hub_stg
+username:
+account: tlcanalytics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5816838
+bundleId: 6372787
+url: https://tlcanalytics.shinyapps.io/tlc_data_hub_stg/
+when: 1664994759.84277
+lastSyncTime: 1664994759.84277
+asMultiple: FALSE
+asStatic: FALSE

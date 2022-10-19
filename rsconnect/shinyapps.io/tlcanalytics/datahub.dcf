@@ -1,0 +1,13 @@
+name: datahub
+title: datahub
+username:
+account: tlcanalytics
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6186517
+bundleId: 5843935
+url: https://tlcanalytics.shinyapps.io/datahub/
+when: 1651085064.50757
+lastSyncTime: 1651085064.50757
+asMultiple: FALSE
+asStatic: FALSE
