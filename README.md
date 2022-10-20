@@ -39,7 +39,7 @@ Currently, the app includes the following dashboards:
     
 - &#x1F4C8; **Frequency of Updates & Diagram**
 
-    The app will be updated once a month on the 25th of each month. There is a delay in us receiving and publishin data to the Open Data portal and this is reflected in the app. For example: on 26th of May the latest data on the app will be from March. Here is the whole workflow:
+    The app will be updated once a month on the 25th of each month. There is a delay in us receiving and publishing data to the Open Data portal and this is reflected in the app. For example: on 26th of May the latest data on the app will be from March. Here is the whole workflow:
     
 ## &#x1F64F; Thank you!
 
