@@ -42,11 +42,7 @@ Currently, the app includes the following dashboards:
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 
 ## &#x1F4C8; **Frequency of Updates & Diagrams**
 
