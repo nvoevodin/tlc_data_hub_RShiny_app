@@ -15,35 +15,31 @@ TLC Data Hub offers users a convenient location to access and visualize taxi and
 
 Currently, the app includes the following dashboards:
 
-- &#x1F4C8; **Dashboard** <img src="DataHub_screens/all.PNG" align="right" width="40%"  />
+- &#x1F4C8; **Trips Dashboard** <img src="DataHub_screens/all.PNG" align="right" width="40%"  />
 
     The 'Trip Data' dashboard displays and compares the pickup, dropoff, trip, trip fare, trip time, and trip distance data across different locations, industries and periods.
     
     All the selections that you've made in the control panel will be represented on the map and info box. The info box allows you to switch between the monthly and daily levels of data.
     
-- &#x1F3C6; **High Score** 
+- &#x1F4C8; **Industry Indicators Dashboard** 
 
-    The high score tab gives a "leaderboard" for users, hashtags, words, and emojis for tweets about the conference. This can be a fun way to gauge topics of disucssion, attendee or participant experiences, or to motivate users to participate.
+    The industry metrics dashboard visualizes our monthly industry indicators published on OUR WEBSITE. These indicators cover a wide variety of topics from trips per day to the number of unique vehicles by industry sector.
 
-- &#x1F3B0; **Tweet Wall** 
+- &#x1F4C8; **Fare & Earnings Dashboard** 
 
-    The **Tweet Wall** shows all of the tweets from the conference in a Pinterest-style wall. Users can quickly scan and read the stream of tweets from the conference or event. Additional, configurable date filters allow users to look for tweets from particular date ranges.
+    The Fare Dashboard allows you to explore detailed industry fare breakdowns. We receive different financial data from different industries. In this dashboard, we reflect Yellow, Green, and High Volume FHV total and average fare information.
 
-- &#x1F4F8; **Media Tweet Wall** 
+- &#x1F4C8; **DataBank** 
 
-    The _Media Tweet Wall_ is another wall of tweets containing only tweets with pictures or videos. In addition to the occasional gif, this tab provides an overview of the pictures being published from the conference venue.
+    The databank section allows you to scroll through, download, and get more familiar with the raw data used to create the dashboards.
 
-- &#x1F50D; **Searchable Table of Tweets** 
+- &#x1F4C8; **Searchable Table of Tweets** 
 
     It is notoriously difficult to use Twitter's search features to find specific tweets. The **Explore** tab provides a searchable [dataTable] of tweets with a number of pre-specified filters. Users can search for text in any field or sort by date or number of favorites or likes. Clicking on a tweet in the table shows the tweet alongside the table in its original context.
     
-- &#x1F4C6; **Conference Schedule**
+- &#x1F4C8; **Conference Schedule**
 
     Conference schedules also tend to be difficult to search and interact with. But if a downloadable (or scrapable) conference schedule is available, it can be embedded directly into the app with the full search and ordering capabilities of [dataTables]. If a tidy schedule table isn't available, the tab's link can point directly to the conference or event schedule on an external website.
-    
-- &#x1F4F1; **Looks Great on Mobile**
-
-    The dashboard is built on [AdminLTE] and [Bootstrap] with a fully responsive design. All of the main features work well on mobile — including the landing page, the high scores and the walls of tweets. The tabs that use [dataTables] try hard, too!
     
 ## &#x1F64F; Thank you!
 
@@ -56,7 +52,7 @@ This dashboard was built using many great tools in the R ecosystem. Thanks to al
 - [shinycssloaders]
 - [DT]
 
-...and many more. For a full list of project dependencies, see [deps.yaml](deps.yaml).
+...and many more. For a full list of project dependencies, see the Global.R file.
     
 ---
 
