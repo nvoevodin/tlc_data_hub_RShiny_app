@@ -53,6 +53,7 @@ Currently, the app includes the following dashboards:
 The app will be updated once a month on the 25th of each month. There is a delay in us receiving and publishing data to the Open Data portal and this is reflected in the app. For example: on 26th of May the latest data on the app will be from March. Here is the whole workflow: 
 
 <br />
+
 ### Overall Data Processing
 
 **The DataBricks in the diagram mean Python, R, and other scripting to facilitate the transitions of data**
