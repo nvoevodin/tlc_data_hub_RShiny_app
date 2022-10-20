@@ -1,14 +1,12 @@
-# Tweet Conference Dashboard
+# TLC DATA HUB RShiny APP
 
 <p align="center">
-<img src="DataHub_screens/welcome.PNG" align="center" width="75%" alt="A screenshot of the tweet conference dashboard interface"/>
+<img src="DataHub_screens/welcome.PNG" align="center" width="75%" alt="A screenshot of the welcome page"/>
 </p>
 
 ## Check It Out
 
-- Try a demo of the app on [shinyapps.io][app-shinyapps] or [my personal webpage][app-grrrck].
-
-- Launch this project in an [RStudio Cloud session][app-rstudio-cloud].
+- Try a demo of the app on [https://tlcanalytics.shinyapps.io/datahub/][app-shinyapps] or [my personal webpage][app-grrrck].
 
 ## Hyper-Focused Conference Twitter
 
