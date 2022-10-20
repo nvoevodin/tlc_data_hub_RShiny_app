@@ -15,7 +15,7 @@ TLC Data Hub offers users a convenient location to access and visualize taxi and
 
 Currently, the app includes the following dashboards:
 
-- &#x1F4C8; **Trips Dashboard** <img src="DataHub_screens/all.PNG" align="right" width="40%"  />
+- &#x1F4C8; **Trips Dashboard** <img src="DataHub_screens/all.PNG" align="right" width="35%"  />
 
     The 'Trip Data' dashboard displays and compares the pickup, dropoff, trip, trip fare, trip time, and trip distance data across different locations, industries and periods.
     
@@ -36,16 +36,6 @@ Currently, the app includes the following dashboards:
 - &#x1F4C8; **Downloadable Reports and Raw Data** 
 
     The DataHub allows you to download summary reports of the pages with the selections that you made in the control bar. The format of the file is 'HTML'. THe size is approx. 8mb. The reports can be further used for analyses or presentations. Additionally, you can visit the DataBank section of the app and download the raw data that we used to build this tool.
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
 - &#x1F4C8; **Frequency of Updates & Diagram**
 
