@@ -6,13 +6,13 @@
 
 ## Check It Out
 
-- Try a demo of the app on [test][https://tlcanalytics.shinyapps.io/datahub/].
+- Try a demo of the app on [https://tlcanalytics.shinyapps.io/datahub/].
 
-## Hyper-Focused Conference Twitter
+## Overview
 
 This dashboard is designed to provide a clean, accessible, hyper-focused interface to explore and monitor tweets sent during a conference, event, or gathering (IRL or online).
 
-Currently, the dashboard includes the following tabs and features:
+Currently, the app includes the following dashboards:
 
 - &#x1F4C8; **Dashboard** <img src="man/tweet-dash-all.png" align="right" width="40%"  />
 
@@ -49,7 +49,6 @@ Currently, the dashboard includes the following tabs and features:
 This dashboard was built using many great tools in the R ecosystem. Thanks to all of the developers of these open source packages:
 
 - [shiny]
-- [rtweet]
 - [shinydashboard]
 - [plotly]
 - [tidyverse]
@@ -57,22 +56,10 @@ This dashboard was built using many great tools in the R ecosystem. Thanks to al
 - [DT]
 
 ...and many more. For a full list of project dependencies, see [deps.yaml](deps.yaml).
-
-I also built a few things to make this work, including:
-
-- [gathertweet] - A command line tool for gathering tweets from Twitter search streams. Removes the boilerplate of collecting Twitter data and plays nicely with `cron`.
-
-- [shinyThings] - [shiny] modules for pagination and dropdown buttons.
-
-- [shinydashboard][shinydashboard-fork] (fork) - I forked [shinydashboard] to add a few features I needed to make this work the way I wanted.
-
-- [adminlte-ocean-next] - An [AdminLTE] dashboard color theme.
     
 ---
 
-This dashboard was built by [Garrick Aden-Buie][garrick-home] and is released under an [MIT license][mit-license].
-
-You are welcome to re-use and/or customize this dashboard! If you do, I kindly request that you provide credit and link back to the [source repo][repo] or my [personal webpage][garrick-home]. Thank you!
+This dashboard was built by [nikitavoevodin.com] and is owned by the NYC Government.
 
 
 [gathertweet]: https://github.com/gadenbuie/gathertweet
