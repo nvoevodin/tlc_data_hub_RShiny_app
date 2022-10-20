@@ -14,7 +14,7 @@ This dashboard is designed to provide a clean, accessible, hyper-focused interfa
 
 Currently, the app includes the following dashboards:
 
-- &#x1F4C8; **Dashboard** <img src="man/tweet-dash-all.png" align="right" width="40%"  />
+- &#x1F4C8; **Dashboard** <img src="DataHub_screens/all.PNG" align="right" width="40%"  />
 
     The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
     
