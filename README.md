@@ -7,6 +7,7 @@
 ## Check It Out
 
 - Try a demo of the app on [DataHub].
+- Open Data Week presentation here: [Open Data]
 
 ## Overview
 
@@ -62,7 +63,7 @@ This dashboard was built using many great tools in the R ecosystem. Thanks to al
 This dashboard was built by [Nikita Voevodin] and is owned by the NYC Government.
 
 
-[Open Data]: https://www.youtube.com/watch?v=LJ8YkGjdcuA
+[Open Data]: [https://www.youtube.com/watch?v=LJ8YkGjdcuA]
 [Nikita Voevodin]: https://nikitavoevodin.com
 [DataHub]: https://tlcanalytics.shinyapps.io/datahub/
 [shinydashboard-fork]: https://github.com/gadenbuie/shinydashboard/tree/dev
