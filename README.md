@@ -85,11 +85,14 @@ graph LR
     DataHubBackend --> |scheduled push| Git(Git Repo that contains <br> processed data for the DataHub)
 
 ```
-```mermaid    
+
+```mermaid
+
 graph LR
     Git(Git Repo that contains <br> processed data for the DataHub) --> |data pulled <br> into the app| DataHub{TLC DataHub App} 
 graph LR
 
+```
 
 ## &#x1F64F; Thank you!
 
