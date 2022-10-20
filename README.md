@@ -41,6 +41,22 @@ Currently, the app includes the following dashboards:
 
     The app will be updated once a month on the 25th of each month. There is a delay in us receiving and publishing data to the Open Data portal and this is reflected in the app. For example: on 26th of May the latest data on the app will be from March. Here is the whole workflow:
     
+    
+graph LR
+    A[Companies send <br> data through FTP server] -->|SSIS ETL| B(Azure DB)
+   
+    B -->|Data Bricks| Analyses[Analyses]
+    B -->|Data Bricks| Apps[Apps]
+    B -->|Data Bricks| PublicData[PublicData]
+    B -->|Procedures/Jobs| DataWarehouse{Azure DataWarehouse}
+    DataWarehouse -->|Data Bricks| Analyses[Analyses]
+    DataWarehouse -->|Data Bricks| Apps[Apps]
+    DataWarehouse -->|Data Bricks| PublicData[Public Data]
+    B -->|Data Bricks| DuckDB{Local .Parquet <br> repo}
+    DuckDB -->|Data Bricks| Analyses[Analyses]
+    DuckDB -->|Data Bricks| Apps[Apps]
+    DuckDB -->|Data Bricks| PublicData[Public Data]
+    
 ## &#x1F64F; Thank you!
 
 This dashboard was built using many great tools in the R ecosystem. Thanks to all of the developers of these open source packages:
