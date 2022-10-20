@@ -78,20 +78,17 @@ graph LR
 
 ```mermaid    
 graph LR
-    A[Companies send <br> data through FTP server] -->|SSIS ETL| B(Azure DB)
-   
-    B -->|Data Bricks| Analyses[Analyses]
-    B -->|Data Bricks| Apps[Apps]
-    B -->|Data Bricks| PublicData[PublicData]
-    B -->|Procedures/Jobs| DataWarehouse{Azure DataWarehouse}
-    DataWarehouse -->|Data Bricks| Analyses[Analyses]
-    DataWarehouse -->|Data Bricks| Apps[Apps]
-    DataWarehouse -->|Data Bricks| PublicData[Public Data]
-    B -->|Data Bricks| DuckDB{Local .Parquet <br> repo}
-    DuckDB -->|Data Bricks| Analyses[Analyses]
-    DuckDB -->|Data Bricks| Apps[Apps]
-    DuckDB -->|Data Bricks| PublicData[Public Data]
-``` 
+    DuckDB{Local .Parquet <br> repo <br> holds raw trip data} -->|anonymized <br> processed| A(AWS S3 Bucket)
+    A --> |picked up| OpenData(NYC Open Data Portal)
+    A --> |uploaded| TLCWeb(TLC WebSite)
+    DuckDB{Local .Parquet <br> repo <br> holds raw trip data} -->|anonymized <br> processed| DataHubBackend(Scheduled DataHub <br> Backend .py Script)
+    DataHubBackend --> |scheduled push| Git(Git Repo that contains <br> processed data for the DataHub)
+
+```
+```mermaid    
+graph LR
+    Git(Git Repo that contains <br> processed data for the DataHub) --> |data pulled <br> into the app| DataHub{TLC DataHub App} 
+graph LR
 
 
 ## &#x1F64F; Thank you!
