@@ -6,7 +6,7 @@
 
 ## Check It Out
 
-- Try a demo of the app on [https://tlcanalytics.shinyapps.io/datahub/][app-shinyapps] or [my personal webpage][app-grrrck].
+- Try a demo of the app on [test][https://tlcanalytics.shinyapps.io/datahub/].
 
 ## Hyper-Focused Conference Twitter
 
