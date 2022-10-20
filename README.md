@@ -6,7 +6,7 @@
 
 ## Check It Out
 
-- Try a demo of the app on [https://tlcanalytics.shinyapps.io/datahub/].
+- Try a demo of the app on [DataHub].
 
 ## Overview
 
@@ -59,11 +59,12 @@ This dashboard was built using many great tools in the R ecosystem. Thanks to al
     
 ---
 
-This dashboard was built by [nikitavoevodin.com] and is owned by the NYC Government.
+This dashboard was built by [Nikita Voevodin] and is owned by the NYC Government.
 
 
-[gathertweet]: https://github.com/gadenbuie/gathertweet
-[shinythings]: https://github.com/gadenbuie/shinythings
+[Open Data]: https://www.youtube.com/watch?v=LJ8YkGjdcuA
+[Nikita Voevodin]: https://nikitavoevodin.com
+[DataHub]: https://tlcanalytics.shinyapps.io/datahub/
 [shinydashboard-fork]: https://github.com/gadenbuie/shinydashboard/tree/dev
 [adminlte-ocean-next]: https://github.com/gadenbuie/AdminLTE/tree/ocean-next
 [datatable]: https://www.datatables.net/
