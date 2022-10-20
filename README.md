@@ -1,7 +1,7 @@
 # Tweet Conference Dashboard
 
 <p align="center">
-<img src="man/tweet-dash-screenshot-dashboard.png" align="center" width="75%" alt="A screenshot of the tweet conference dashboard interface"/>
+<img src="DataHub_screens/welcome.png" align="center" width="75%" alt="A screenshot of the tweet conference dashboard interface"/>
 </p>
 
 ## Check It Out
