@@ -33,13 +33,13 @@ Currently, the app includes the following dashboards:
 
     The databank section allows you to scroll through, download, and get more familiar with the raw data used to create the dashboards.
 
-- &#x1F4C8; **Searchable Table of Tweets** 
+- &#x1F4C8; **Downloadable Reports and Raw Data** 
 
-    It is notoriously difficult to use Twitter's search features to find specific tweets. The **Explore** tab provides a searchable [dataTable] of tweets with a number of pre-specified filters. Users can search for text in any field or sort by date or number of favorites or likes. Clicking on a tweet in the table shows the tweet alongside the table in its original context.
+    The DataHub allows you to download summary reports of the pages with the selections that you made in the control bar. The format of the file is 'HTML'. THe size is approx. 8mb. The reports can be further used for analyses or presentations. Additionally, you can visit the DataBank section of the app and download the raw data that we used to build this tool.
     
-- &#x1F4C8; **Conference Schedule**
+- &#x1F4C8; **Frequency of Updates & Diagram**
 
-    Conference schedules also tend to be difficult to search and interact with. But if a downloadable (or scrapable) conference schedule is available, it can be embedded directly into the app with the full search and ordering capabilities of [dataTables]. If a tidy schedule table isn't available, the tab's link can point directly to the conference or event schedule on an external website.
+    The app will be updated once a month on the 25th of each month. There is a delay in us receiving and publishin data to the Open Data portal and this is reflected in the app. For example: on 26th of May the latest data on the app will be from March. Here is the whole workflow:
     
 ## &#x1F64F; Thank you!
 
