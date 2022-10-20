@@ -10,15 +10,15 @@
 
 ## Overview
 
-This dashboard is designed to provide a clean, accessible, hyper-focused interface to explore and monitor tweets sent during a conference, event, or gathering (IRL or online).
+TLC Data Hub offers users a convenient location to access and visualize taxi and for hire vehicle industry data.  TLC Data Hub uses public data available on Open Data and the TLC website and does not use, track or display any private information of the drivers or companies. The Hub currently consists of three dashboards and a databank. The 'Trip Data' dashboard allows the public to run queries on TLC-collected trip data while the 'Industry Metrics' dashboard provides standard visualizations of monthly industry trends. For your convenience, there are 'Help' buttons throughout the Data Hub (shown as 'Eye' icons) that include helpful information and data explanations.
 
 Currently, the app includes the following dashboards:
 
 - &#x1F4C8; **Dashboard** <img src="DataHub_screens/all.PNG" align="right" width="40%"  />
 
-    The opening page show a few statistics about the current volume of tweeting about the conference. If the conference is part of a larger Twitter community, you can also display overall statistics about tweeting in that community. For example, **rstudio::conf** tweets are from members of the broader **#rstats** Twitter community.
+    The 'Trip Data' dashboard displays and compares the pickup, dropoff, trip, trip fare, trip time, and trip distance data across different locations, industries and periods.
     
-    The front page also includes the top retweeted and liked tweets from a configurable time window, such as 12 hours, and the most recent tweet sent.
+    All the selections that you've made in the control panel will be represented on the map and info box. The info box allows you to switch between the monthly and daily levels of data.
     
 - &#x1F3C6; **High Score** 
 
