@@ -90,7 +90,7 @@ graph LR
 
 graph LR
     Git(Git Repo that contains <br> processed data for the DataHub) --> |data pulled <br> into the app| DataHub{TLC DataHub App} 
-graph LR
+
 
 ```
 
